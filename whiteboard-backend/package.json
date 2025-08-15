@@ -1,0 +1,24 @@
+{
+  "name": "whiteboard-backend",
+  "version": "1.0.0",
+  "description": "Backend logic for whiteboard application deployed in ReactJS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Mehar Fatima Khan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.2",
+    "redis": "^4.7.0",
+    "socket.io": "^4.8.1",
+    "socket.io-redis": "^6.1.1",
+    "uuid": "^11.0.3"
+  }
+}
